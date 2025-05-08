@@ -59,11 +59,6 @@ pip install requests
 
 ### what is role of each file in this or what it contain
 
-![image](https://user-images.githubusercontent.com/109918405/193418292-261579f4-3b6e-4801-83d3-b8d0d9aeebea.png)
-
-- **".git"** file it automatically created when we initiative or init github repository to over local project folder.
-- **"git attributes"** file contain some command that help while hosting the project on any web services and in my case ill also use "Git LFS" to uplod some big size data file in same repositery so it also contain that lfs code to track that files.
-- **"git ignore"** file tells Git which files to ignore when committing your project to the GitHub repository.
 - **"app.py"** this file contain the frontend and backend recommendation model implemenation to present in web application using python libery "streamlit"
 - **"movie_dict.pkl"** this pickle file we generated using movie-recommender-system in jupyter system this file contain the dataset that we use in project but in dictonary format but some checking and error solving purposes.
 - **"movie-recommender-system.ipynb"** this this jupyter notebook file in this we created the movie recommendation model and in this we filer the movie dataset that we use for recommendation
